@@ -1,0 +1,14 @@
+<div style="background-image: url(./assets/images/login6.jpg);height:650px;padding-top: 50px;background-repeat: no-repeat;align-content: center;background-size: 100% 100%;">
+  <div  style="background-color: lightgray;opacity: 1;height: 500px;width: 30%;margin-left: 35%;justify-content: center;text-align: center">
+    <h1 style="padding-top: 30px;font-weight: bold;">
+      LOGIN
+      <hr>
+    </h1>
+    Username:
+    <input type="text" [(ngModel)]="username" class="form-control" style="width: 250px;margin-top: 10px;margin-left: 100px;color: orange"  placeholder="Username" name="username">
+    Password:
+    <input type="password"[(ngModel)]="password" style="width: 250px;margin-top: 10px;margin-left: 100px; color:orange;" class="form-control" placeholder="Password">
+    <input (click)="checkLogin()" type="submit" style="width: 100px;margin-top: 50px;background-color: mediumseagreen; margin-bottom: 20px" name="Login" value="Login" placeholder="Login">
+    <h5 style="background-color: #4CAF50;color: white;padding: 16px 32px;margin-top: 15px;cursor: pointer;">NO SHOPPER/STACK ID?<a style="color: orange;text-decoration-line: blink;" href="/register">Register</a></h5>
+  </div>
+</div>
